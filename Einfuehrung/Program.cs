@@ -22,6 +22,7 @@ namespace Einfuehrung
             Console.WriteLine(@"\\Server01\Freigabename\ordner");
             Console.ReadLine();
             //Fertig
+            //weitere Version
         }
     }
 }

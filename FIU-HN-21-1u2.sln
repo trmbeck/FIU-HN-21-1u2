@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Einfuehrung", "Einfuehrung\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Übungen", "Übungen", "{FD67AA57-6B1C-4006-9E6A-5DA443DDF38C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{2DDFE0BC-8CFF-4079-8777-3D02409F50BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{2DDFE0BC-8CFF-4079-8777-3D02409F50BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{4F5411C5-493F-467A-85B0-3FE9F2B48D0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMI", "BMI\BMI.csproj", "{4F5411C5-493F-467A-85B0-3FE9F2B48D0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Durchschnitt", "Durchschnitt\Durchschnitt.csproj", "{4E0F575C-312C-46F0-B7B2-75EFF84898B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Durchschnitt", "Durchschnitt\Durchschnitt.csproj", "{4E0F575C-312C-46F0-B7B2-75EFF84898B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{7691222E-4C13-4B6C-AA23-BD9E29D5832D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{4E0F575C-312C-46F0-B7B2-75EFF84898B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E0F575C-312C-46F0-B7B2-75EFF84898B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E0F575C-312C-46F0-B7B2-75EFF84898B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7691222E-4C13-4B6C-AA23-BD9E29D5832D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7691222E-4C13-4B6C-AA23-BD9E29D5832D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7691222E-4C13-4B6C-AA23-BD9E29D5832D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7691222E-4C13-4B6C-AA23-BD9E29D5832D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

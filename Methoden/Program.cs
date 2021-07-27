@@ -92,7 +92,6 @@ namespace Methoden
             Console.WriteLine("2\t3\t5\t7\t11\t13\t17\t19\t23\t29\t31\t37\t41\t47");
         }
 
-
         static void Unterprogramm()
         {
             Console.Clear();

@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bennanteMethode", "bennante
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPAdressen", "IPAdressen\IPAdressen.csproj", "{DEDB2A79-2153-4E4C-8AB9-A77A3D917056}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatischeKlassen", "StatischeKlassen\StatischeKlassen.csproj", "{A9C57093-2C5F-428D-8C41-AA3AB89BE0D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{DEDB2A79-2153-4E4C-8AB9-A77A3D917056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEDB2A79-2153-4E4C-8AB9-A77A3D917056}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEDB2A79-2153-4E4C-8AB9-A77A3D917056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C57093-2C5F-428D-8C41-AA3AB89BE0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C57093-2C5F-428D-8C41-AA3AB89BE0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C57093-2C5F-428D-8C41-AA3AB89BE0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C57093-2C5F-428D-8C41-AA3AB89BE0D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +164,7 @@ Global
 		{B7DFFF14-E839-40A0-85D6-415340A355A6} = {448EC653-3406-4594-9E93-503AAF3D1436}
 		{0352B167-F155-494E-AABC-26A12AE8E59B} = {448EC653-3406-4594-9E93-503AAF3D1436}
 		{DEDB2A79-2153-4E4C-8AB9-A77A3D917056} = {FD67AA57-6B1C-4006-9E6A-5DA443DDF38C}
+		{A9C57093-2C5F-428D-8C41-AA3AB89BE0D5} = {448EC653-3406-4594-9E93-503AAF3D1436}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7BFC88FA-3AEE-43E6-BF0E-C6FC9283889D}

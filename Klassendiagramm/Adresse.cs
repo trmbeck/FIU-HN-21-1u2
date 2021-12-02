@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Klassendiagramm
 {
-    internal class Adresse
+    public class Adresse
     {
-        private string strasse;
+        private string strasse = String.Empty;
         private string hausnummer = String.Empty;
         private string plz = String.Empty;
         private string ort = String.Empty;
@@ -16,7 +16,7 @@ namespace Klassendiagramm
 
         public Adresse()
         {
-            strasse = string.Empty;
+            
         }
 
         public string Strasse { get => strasse; set => strasse = value; }

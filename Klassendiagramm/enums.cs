@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Klassendiagramm
 {
-    internal enum Land
+    public enum Land
     {
         de,
         fr,

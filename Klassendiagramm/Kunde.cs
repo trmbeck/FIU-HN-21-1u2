@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -7,27 +8,26 @@ using System.Threading.Tasks;
 
 namespace Klassendiagramm
 {
-    public class Kunde
+    public class Person
     {
-        private static int naechsteKundennummer = 1;
+        protected static int naechsteKundennummer = 1;
+        protected readonly int kundenId; // --> Valuetype
+        protected string nachname = String.Empty;
+        protected string vorname = "";
+        protected Datum geburtsdatum = new Datum(); //struct -> Valuetype
+        protected bool vip;
+        protected bool buisinesskunde;
 
-        private readonly int kundenId;
-        private string nachname = String.Empty;
-        private string vorname = "";
-        private DateTime geburtsdatum;
-        private bool vip;
-        private bool buisinesskunde;
+//#nullable disable
+        protected Adresse rechnungsadresse = new Adresse();
+        protected Adresse lieferadresse = new Adresse();
+//#nullable enable
 
-#nullable disable
-        private Adresse rechnungsadresse;
-        private Adresse lieferadresse;
-#nullable enable
-
-        private List<Rechnung> rechnungsListe = new List<Rechnung>();
+        protected List<Rechnung> rechnungsListe = new List<Rechnung>();
 
         public int KundenId { get => kundenId; init => kundenId = value; } // init -> nur bei Initialisierung
         public string Vorname { get => vorname; set => vorname = value; }
-        public DateTime Geburtsdatum { get => geburtsdatum; set => geburtsdatum = value; }
+        public Datum Geburtsdatum { get => geburtsdatum; set => geburtsdatum = value; }
         public bool Vip { get => vip; set => vip = value; }
         public bool Buisinesskunde { get => buisinesskunde; set => buisinesskunde = value; }
         public string Nachname { get => nachname; set => nachname = value; }
@@ -35,11 +35,28 @@ namespace Klassendiagramm
         internal Adresse Lieferadresse { get => lieferadresse; set => lieferadresse = value; }
         internal List<Rechnung> RechnungsListe { get => rechnungsListe; set => rechnungsListe = value; }
 
-        public Kunde()
+        public Person()
         {
             KundenId = naechsteKundennummer++;
             Debug.WriteLine("id: " + KundenId);
             Debug.WriteLine("nächste ID: " + naechsteKundennummer);
+        }
+    }
+
+    public class Kunde : Person, IEnumerable, IComparable
+    {
+        public Kunde() : base()
+        {
+
+        }
+        public int CompareTo(object? obj)
+        { 
+            throw new NotImplementedException();
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            throw new NotImplementedException();
         }
     }
 }

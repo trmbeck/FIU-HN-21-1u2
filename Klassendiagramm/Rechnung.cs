@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Klassendiagramm
 {
-    internal class Rechnung
+    public class Rechnung
     {
         private int rechnubgsId;
         private double mwst = 0.19;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Klassendiagramm
 {
-    internal class Artikel
+    public class Artikel
     {
         private readonly int artikelId;
         private double preis;

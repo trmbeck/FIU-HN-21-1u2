@@ -61,7 +61,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Übungen", "Übungen", "{1B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sportler", "Sportler\Sportler.csproj", "{E11439A2-8163-41A9-BFA9-3F30F4A975B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F565E6BA-BC64-4B25-AADD-83630B529D6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlassendiagrammAnwendung", "ConsoleApp1\KlassendiagrammAnwendung.csproj", "{F565E6BA-BC64-4B25-AADD-83630B529D6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Klassendiagramm;
 
-using KlassendiagrammAnwendung;
 
 Kunde kunde1 = new ();
 Artikel artikel1 = new (1) { Beschreibung = "Solaranlage (toll)", Preis = 2000 };

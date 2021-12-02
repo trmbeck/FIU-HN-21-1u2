@@ -31,9 +31,9 @@ namespace Klassendiagramm
         public bool Vip { get => vip; set => vip = value; }
         public bool Buisinesskunde { get => buisinesskunde; set => buisinesskunde = value; }
         public string Nachname { get => nachname; set => nachname = value; }
-        internal Adresse Rechnungsadresse { get => rechnungsadresse; set => rechnungsadresse = value; }
-        internal Adresse Lieferadresse { get => lieferadresse; set => lieferadresse = value; }
-        internal List<Rechnung> RechnungsListe { get => rechnungsListe; set => rechnungsListe = value; }
+        public Adresse Rechnungsadresse { get => rechnungsadresse; set => rechnungsadresse = value; }
+        public Adresse Lieferadresse { get => lieferadresse; set => lieferadresse = value; }
+        public List<Rechnung> RechnungsListe { get => rechnungsListe; set => rechnungsListe = value; }
 
         public Person()
         {

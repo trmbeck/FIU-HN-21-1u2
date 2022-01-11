@@ -13,13 +13,13 @@ function runAfterWindowLoaded(eventArgs){
     let btn = document.getElementById('btnOK');
     btn.addEventListener('click', greeting);
 
-        function greeting(){
-            headline.innerHTML = "Servus";
-        }
+    function greeting(){
+        headline.innerHTML = "Servus";
+    }
     
     console.log(eventArgs);
 
-    document.getElementById('container1').addEventListener('mousedown',() => alert("container1"));
+    document.getElementById('container1').addEventListener('mousedown',() => alert("container1"),false);
     document.getElementById('container2').addEventListener('mousedown',() => alert("container2"),true);
     document.getElementById('container3').addEventListener('mousedown',(event) => {
         alert("span");

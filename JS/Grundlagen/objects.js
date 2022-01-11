@@ -84,6 +84,8 @@ let car2 = getVehicle(2010,"BMW","Z3");
 console.log(car2.getInfo());
 console.log(typeof(car2));
 
+
+// constructor function
 function Vehicle(theYear, theMake, theModel){
     let year = theYear;
     let make = theMake;
@@ -94,8 +96,7 @@ function Vehicle(theYear, theMake, theModel){
 }
 
 let car3 = new Vehicle(2020,"VW","Golf");
-console.log(car3.getInfo());
-
 let car4 = new Vehicle(1982,"deLoreen","deLoreen");
+console.log(car3.getInfo());
 console.log(car4.getInfo());
-
+console.log(typeof(car3));

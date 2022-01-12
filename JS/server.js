@@ -40,5 +40,15 @@ app.post("/kontaktformular", (request,response)=>{
     });
 });
 
+
+app.get('/addition', (request,response)=>{
+    let x = Number(request.query.x); // 10
+    let y = Number(request.query.y); // 20
+    let result = x + y; // 30
+    response.writeHead(200,{'Content-Type': 'application/json'});
+    response.end('{ "ergebnis" : ' + result + '}'); // -> {"result": 30}               , "x":10, "y":20}
+    console.log("API request handled for x="+x+" and y=" + y + "\n result = " + result);
+})
+
 app.listen(8080);
 console.log("Listening on port 8080");
